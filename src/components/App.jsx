@@ -1,8 +1,8 @@
-import { MoviesGrid } from "./MoviesGrid";
+// import { MoviesGrid } from "./MoviesGrid/MoviesGrid";
 import styles from "./App.module.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { MovieDetails } from "../pages/MovieDetails";
-import { LandingPage } from "../pages/LandingPage";
+import { MovieDetails } from "../pages//MoviesDetails/MovieDetails";
+import { LandingPage } from "../pages/LandingPage/LandingPage";
 
 
 export const App = () => {
