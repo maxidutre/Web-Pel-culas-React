@@ -15,7 +15,7 @@ export const App = () => {
             </header>
             <main>
                 <Routes>
-                    <Route path="/" element = {<LandingPage/>}/>               
+                    <Route exact path="/" element = {<LandingPage/>}/>               
                     <Route path="/movies/:movieId" element = {<MovieDetails/>}/>                   
                 </Routes>
             </main>
